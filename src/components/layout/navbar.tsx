@@ -44,7 +44,7 @@ export function Navbar() {
             href="#"
             className="text-lg font-bold tracking-tight text-[var(--foreground)]"
           >
-            Joe Mato | Portfolio
+            Joe Mato.
           </a>
 
           <div className="hidden md:flex items-center gap-8">

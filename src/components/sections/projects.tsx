@@ -287,6 +287,10 @@ export function Projects() {
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
+
+        <p className="mt-8 text-sm text-[var(--muted-foreground)] text-center">
+          Additional projects available on request
+        </p>
       </motion.div>
     </Section>
   );

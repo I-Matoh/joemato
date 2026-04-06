@@ -4,7 +4,26 @@ import { motion, type Variants } from "framer-motion";
 import { Section, SectionHeader, SectionTitle, SectionDescription } from "@/components/ui/section";
 import { Card } from "@/components/ui/card";
 
+const CERTIFICATIONS = [
+  { name: "Building with the Claude API", issuer: "Anthropic", year: "2026" },
+  { name: "Advanced MCP Topics", issuer: "Anthropic", year: "2026" },
+  { name: "Claude Code in Action", issuer: "Anthropic", year: "2026" },
+  { name: "Introduction to Model Context Protocol", issuer: "Anthropic", year: "2026" },
+  { name: "AI Fluency: Framework & Foundations", issuer: "Anthropic", year: "2026" },
+];
+
+const SOFT_SKILLS = [
+  "Communication",
+  "Leadership",
+  "Systems Thinking",
+  "End-to-End Ownership",
+  "Bias for Action",
+  "Influence without Authority",
+  "Ambiguity Management",
+];
+
 const TECH_STACK = [
+  { name: "JavaScript", category: "Language" },
   { name: "React", category: "Frontend" },
   { name: "TypeScript", category: "Language" },
   { name: "Node.js", category: "Backend" },
@@ -122,6 +141,36 @@ export function About() {
                     className="px-3 py-1.5 text-xs font-medium rounded-lg bg-[var(--muted)] text-[var(--foreground)] border border-[var(--border)]"
                   >
                     {tech.name}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="pt-4">
+              <h3 className="text-sm font-semibold text-[var(--muted-foreground)] uppercase tracking-wider mb-4">
+                Certifications
+              </h3>
+              <div className="space-y-2">
+                {CERTIFICATIONS.map((cert) => (
+                  <div key={cert.name} className="flex justify-between items-center text-sm">
+                    <span className="text-[var(--foreground)]">{cert.name}</span>
+                    <span className="text-[var(--muted-foreground)]">{cert.issuer} · {cert.year}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="pt-4">
+              <h3 className="text-sm font-semibold text-[var(--muted-foreground)] uppercase tracking-wider mb-4">
+                Soft Skills
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {SOFT_SKILLS.map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1.5 text-xs font-medium rounded-lg bg-[var(--muted)] text-[var(--foreground)] border border-[var(--border)]"
+                  >
+                    {skill}
                   </span>
                 ))}
               </div>
