@@ -51,9 +51,9 @@ export function Hero() {
           variants={itemVariants}
           className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-[var(--foreground)] text-balance"
         >
-          Full-Stack Engineer{" "}
+          Full-Stack Engineer (AI & Real-Time Systems){" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-accent-500">
-            Building AI-Powered
+            Building Production AI
           </span>{" "}
           Systems That Scale
         </motion.h1>
@@ -150,7 +150,7 @@ export function Hero() {
               <path d="m7 21 5-5" />
               <path d="M2 2h20v20H2z" />
             </svg>
-            <span>AI + Real-time systems</span>
+            <span>Owned end-to-end delivery</span>
           </div>
           <div className="hidden sm:flex items-center gap-2">
             <svg

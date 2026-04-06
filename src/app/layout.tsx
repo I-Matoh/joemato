@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://joemato.com",
-    title: "JM Senior MERN + AI Engineer | Building Intelligent Systems",
+    title: "Senior MERN + AI Engineer | Building Intelligent Systems",
     description:
       "Full-stack engineer specializing in AI-powered systems and real-time collaboration platforms.",
     siteName: "Joe Mato",

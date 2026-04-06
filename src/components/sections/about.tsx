@@ -6,18 +6,20 @@ import { Card } from "@/components/ui/card";
 
 const TECH_STACK = [
   { name: "React", category: "Frontend" },
-  { name: "Next.js", category: "Framework" },
   { name: "TypeScript", category: "Language" },
   { name: "Node.js", category: "Backend" },
   { name: "Express", category: "Backend" },
-  { name: "MongoDB", category: "Database" },
+  { name: "MongoDB, PostgreSQL", category: "Database" },
   { name: "Redis", category: "Cache" },
   { name: "WebSocket", category: "Real-time" },
   { name: "OpenAI API", category: "AI" },
   { name: "Groq API", category: "AI" },
+  { name: "Claude", category: "AI" },
+  { name: "Prompt Engineering", category: "AI" },
   { name: "Docker", category: "DevOps" },
-  { name: "AI Intergrations", category: "AI" },
   { name: "AWS", category: "Cloud" },
+  { name: "Rate Limiting", category: "Architecture" },
+  { name: "Observability", category: "DevOps" },
 ];
 
 const DIFFERENTIATORS = [
@@ -28,7 +30,7 @@ const DIFFERENTIATORS = [
       </svg>
     ),
     title: "AI-Native Architecture",
-    description: "I don't bolt AI onto existing systems. I build architectures where machine learning pipelines, LLM integrations, and intelligent automation are first-class citizens in the system design.",
+    description: "I don't bolt AI onto existing systems. I build architectures where machine learning pipelines, LLM integrations, and intelligent automation are first-class citizens. RAG pipelines, embedding vectors, prompt optimization, hallucination control.",
   },
   {
     icon: (
@@ -45,8 +47,8 @@ const DIFFERENTIATORS = [
         <rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" />
       </svg>
     ),
-    title: "Production Discipline",
-    description: "Code that ships, scales, and survives. TypeScript strict mode, comprehensive error handling, database indexing strategies, caching layers, and deployment pipelines.",
+    title: "System Architecture",
+    description: "Designed WebSocket architecture supporting 1K+ concurrent users with Redis pub/sub. Implemented caching layers reducing DB load by 60%. Built fault-tolerant services with retry + fallback mechanisms.",
   },
   {
     icon: (
@@ -54,8 +56,8 @@ const DIFFERENTIATORS = [
         <rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" />
       </svg>
     ),
-    title: "Security First",
-    description: "Implementing robust security measures from the ground up, ensuring data protection and compliance across all layers of the application.",
+    title: "Production Discipline",
+    description: "Code that ships, scales, and survives. TypeScript strict mode, comprehensive error handling, database indexing strategies, caching layers, CI/CD pipelines, rate limiting, and observability with logs/metrics/tracing.",
   },
 ];
 
@@ -106,7 +108,7 @@ export function About() {
               I&apos;ve built AI-powered learning platforms that adapt to user
               behavior and real-time collaboration systems handling thousands of
               concurrent connections. My code isn&apos;t
-              portfolio-ready—it&apos;s production-ready.
+              portfolio-ready, it's production-ready.
             </p>
 
             <div className="pt-4">

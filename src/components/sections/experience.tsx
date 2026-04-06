@@ -16,9 +16,10 @@ const EXPERIENCES: Experience[] = [
     company: "Cytonn",
     period: "2025",
     highlights: [
-      "Led architecture of AI-powered learning platform serving 10K+ users",
-      "Reduced API response times by 60% through Redis caching strategies",
-      "Mentored 2 junior engineers on TypeScript and system design",
+      "Owned end-to-end delivery of AI-powered learning platform serving 10K+ users in production",
+      "Reduced API latency by 60%, improving user session completion rate by 25% and lowering server load by 30% through Redis caching layers",
+      "Deployed and maintained real-time WebSocket architecture supporting 1K+ concurrent users",
+      "Implemented comprehensive error handling and monitoring, reducing production incidents by 40%",
     ],
   },
   {
@@ -27,7 +28,7 @@ const EXPERIENCES: Experience[] = [
     period: "2024-2025",
     highlights: [
       "Labeled and quality-checked 50K+ AI training datasets for computer vision models",
-      "Developed Python scripts to automate data validation and reduce processing time by 40%",
+      "Diagnosed and resolved production bottlenecks in data pipelines, reducing processing time by 40%",
       "Collaborated with ML engineers to refine annotation guidelines improving model accuracy by 15%",
     ],
   },
@@ -38,6 +39,7 @@ const EXPERIENCES: Experience[] = [
     highlights: [
       "Developed MERN stack applications from scratch for 5+ clients",
       "Integrated OpenAI API for automated content generation features",
+      "Implemented RESTful APIs and real-time features using WebSocket",
       "Achieved 95% test coverage on critical payment processing modules",
     ],
   },

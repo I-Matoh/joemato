@@ -47,7 +47,7 @@ export function Footer() {
           </div>
 
           <p className="text-sm text-[var(--muted-foreground)]">
-            &copy; {currentYear} Portfolio. Built with Next.js & TailwindCSS.
+            &copy; {currentYear} Joe Mato
           </p>
 
           <a
