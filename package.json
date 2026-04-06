@@ -1,13 +1,14 @@
 {
   "name": "joe-mato",
   "version": "1.0.0",
-  "description": "Senior MERN + AI Engineer Portfolio",
+  "description": " JM Senior MERN + AI Engineer Portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",
