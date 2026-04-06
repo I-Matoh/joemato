@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Senior MERN + AI Engineer Portfolio",
+  "description": "JM Senior MERN + AI Engineer Portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",

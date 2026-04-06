@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | Joe Mato",
   },
   description:
-    "Full-stack engineer specializing in AI-powered systems, real-time collaboration platforms, and production-grade MERN applications. 3 years of experience building scalable solutions.",
+    "Full-stack engineer specializing in AI-powered systems, real-time collaboration platforms and production-grade MERN applications. 3 years of experience building scalable solutions.",
   keywords: [
     "MERN Stack",
     "AI Integration",
@@ -38,17 +38,23 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://joemato.com",
-    title: "Senior MERN + AI Engineer | Building Intelligent Systems",
+    title: "JM Senior MERN + AI Engineer | Building Intelligent Systems",
     description:
       "Full-stack engineer specializing in AI-powered systems and real-time collaboration platforms.",
     siteName: "Joe Mato",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Senior MERN + AI Engineer | Building Intelligent Systems",
+    title: "JM Senior MERN + AI Engineer | Building Intelligent Systems",
     description:
       "Full-stack engineer specializing in AI-powered systems and real-time collaboration platforms.",
   },
+  icons: [
+    {
+      url: "/icon.svg",
+      type: "image/svg+xml",
+    },
+  ],
   robots: {
     index: true,
     follow: true,

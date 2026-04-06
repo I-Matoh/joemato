@@ -63,8 +63,8 @@ export function Hero() {
           className="mt-6 text-lg md:text-xl text-[var(--muted-foreground)] max-w-2xl mx-auto text-balance"
         >
           I design and ship production-grade applications where AI integration
-          isn&apos;t a feature—it&apos;s the architecture. Three years of MERN
-          stack mastery, applied to systems that learn, adapt, and handle
+          isn&apos;t a feature, it&apos;s the architecture. Three years of MERN
+          stack mastery, applied to systems that learn, adapt and handle
           real-time complexity.
         </motion.p>
 

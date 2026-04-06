@@ -12,9 +12,9 @@ interface Experience {
 
 const EXPERIENCES: Experience[] = [
   {
-    role: "Senior Full-Stack Engineer",
-    company: "Tech Startup",
-    period: "2024 — Present",
+    role: "Intern Full-Stack Engineer",
+    company: "Cytonn",
+    period: "2025",
     highlights: [
       "Led architecture of AI-powered learning platform serving 10K+ users",
       "Reduced API response times by 60% through Redis caching strategies",
@@ -22,18 +22,18 @@ const EXPERIENCES: Experience[] = [
     ],
   },
   {
-    role: "Full-Stack Developer",
-    company: "Software Agency",
-    period: "2023 — 2024",
+    role: "Remote Data Annotation Specialist",
+    company: "Contracts",
+    period: "2024-2025",
     highlights: [
-      "Built real-time collaboration system handling 1K+ concurrent WebSocket connections",
-      "Implemented CI/CD pipeline reducing deployment time from 30min to 5min",
-      "Shipped 12 production features across 3 client projects",
+      "Labeled and quality-checked 50K+ AI training datasets for computer vision models",
+      "Developed Python scripts to automate data validation and reduce processing time by 40%",
+      "Collaborated with ML engineers to refine annotation guidelines improving model accuracy by 15%",
     ],
   },
   {
-    role: "Junior Developer",
-    company: "Digital Agency",
+    role: "Freelance Junior Developer",
+    company: "Freelance",
     period: "2022 — 2023",
     highlights: [
       "Developed MERN stack applications from scratch for 5+ clients",

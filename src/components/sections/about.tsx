@@ -48,6 +48,15 @@ const DIFFERENTIATORS = [
     title: "Production Discipline",
     description: "Code that ships, scales, and survives. TypeScript strict mode, comprehensive error handling, database indexing strategies, caching layers, and deployment pipelines.",
   },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" />
+      </svg>
+    ),
+    title: "Security First",
+    description: "Implementing robust security measures from the ground up, ensuring data protection and compliance across all layers of the application.",
+  },
 ];
 
 const containerVariants: Variants = {
