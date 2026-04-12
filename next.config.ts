@@ -1,10 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true, // Keep strict mode enabled
-  output: "export", // Enable static export for GitHub Pages
-  basePath: "/joemato", // Add your GitHub repository name here
-  assetPrefix: "/joemato/", // Ensure assets load correctly
+  reactStrictMode: true,
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [

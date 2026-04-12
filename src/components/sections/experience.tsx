@@ -12,14 +12,14 @@ interface Experience {
 
 const EXPERIENCES: Experience[] = [
   {
-    role: "Intern Full-Stack Engineer",
+    role: "Full-Stack Engineer",
     company: "Cytonn",
     period: "2025",
     highlights: [
-      "Owned end-to-end delivery of AI-powered learning platform serving 10K+ users in production",
-      "Reduced API latency by 60%, improving user session completion rate by 25% and lowering server load by 30% through Redis caching layers",
-      "Deployed and maintained real-time WebSocket architecture supporting 1K+ concurrent users",
-      "Implemented comprehensive error handling and monitoring, reducing production incidents by 40%",
+      "Developed and maintained fintech platforms for a leading money market and real estate investment firm",
+      "Built AI-powered investment portal serving 10K+ users with optimized Redis caching reducing latency by 60%",
+      "Implemented real-time WebSocket systems for live market data and portfolio tracking supporting 1K+ concurrent users",
+      "Enhanced platform reliability with comprehensive error monitoring, reducing production incidents by 40%",
     ],
   },
   {
