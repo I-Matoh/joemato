@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[39756,["/joemato/_next/static/chunks/0dd~_5mazypxe.js","/joemato/_next/static/chunks/162o9ifhkapr6.js","/joemato/_next/static/chunks/0dbhjjzl8qfwv.js"],"default"]
-3:I[37457,["/joemato/_next/static/chunks/0dd~_5mazypxe.js","/joemato/_next/static/chunks/162o9ifhkapr6.js","/joemato/_next/static/chunks/0dbhjjzl8qfwv.js"],"default"]
+2:I[39756,["/_next/static/chunks/0dd~_5mazypxe.js","/_next/static/chunks/162o9ifhkapr6.js","/_next/static/chunks/0dbhjjzl8qfwv.js"],"default"]
+3:I[37457,["/_next/static/chunks/0dd~_5mazypxe.js","/_next/static/chunks/162o9ifhkapr6.js","/_next/static/chunks/0dbhjjzl8qfwv.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"sZRp5Nw7haH1RiPjIr5XM"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"M1lN180ISamT83JEDa8Ch"}

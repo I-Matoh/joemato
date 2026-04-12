@@ -63,7 +63,7 @@ export function Contact() {
           <SectionHeader className="text-center">
             <SectionTitle>Let&apos;s Build Something</SectionTitle>
             <SectionDescription className="mx-auto">
-              Looking for a senior engineer who can architect AI-powered systems
+              Looking for a FullStack engineer who can architect AI-powered systems
               and ship production-grade code? Let&apos;s talk.
             </SectionDescription>
           </SectionHeader>

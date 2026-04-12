@@ -49,12 +49,14 @@ export const metadata: Metadata = {
     description:
       "Full-stack engineer specializing in AI-powered systems and real-time collaboration platforms.",
   },
-  icons: [
-    {
-      url: "/icon.svg",
-      type: "image/svg+xml",
-    },
-  ],
+  icons: {
+    icon: [
+      {
+        url: "/icon.svg",
+        type: "image/svg+xml",
+      },
+    ],
+  },
   robots: {
     index: true,
     follow: true,
