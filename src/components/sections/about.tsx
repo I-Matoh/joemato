@@ -36,7 +36,7 @@ const TECH_STACK = {
   ],
   ai: [
     "OpenAI, Claude, Groq APIs",
-    "RAG pipelines (embeddings + retrieval flows)",
+    "RAG pipelines (basic retrieval flows, embedding-based search)",
     "Prompt design and response validation",
     "Latency + cost-aware API usage",
   ],

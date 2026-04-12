@@ -57,11 +57,11 @@ const PROJECTS: Project[] = [
     problem: "Remote teams need real-time collaboration tools that work reliably at scale. Existing solutions either lack true real-time sync or become unstable with multiple concurrent editors, causing data loss and frustration.",
     architecture: [
       "WebSocket server with Redis pub/sub for horizontal scaling",
-      "Operational Transformation (OT) algorithm for conflict resolution",
       "Presence awareness system tracking cursor positions and user states",
       "Event sourcing for complete edit history and undo/redo",
       "MongoDB change streams for persistent state synchronization",
-      "Docker containerization with auto-scaling on Kubernetes",
+      "Redis-based locking mechanism to prevent edit conflicts",
+      
     ],
     challenges: [
       "Implementing OT from scratch to handle concurrent edits without data loss",
