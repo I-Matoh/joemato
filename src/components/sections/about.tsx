@@ -6,10 +6,6 @@ import { Card } from "@/components/ui/card";
 
 const CERTIFICATIONS = [
   { name: "Building with the Claude API", issuer: "Anthropic", year: "2026" },
-  { name: "Advanced MCP Topics", issuer: "Anthropic", year: "2026" },
-  { name: "Claude Code in Action", issuer: "Anthropic", year: "2026" },
-  { name: "Introduction to Model Context Protocol", issuer: "Anthropic", year: "2026" },
-  { name: "AI Fluency: Framework & Foundations", issuer: "Anthropic", year: "2026" },
 ];
 
 const SOFT_SKILLS = [
@@ -22,35 +18,38 @@ const SOFT_SKILLS = [
   "Ambiguity Management",
 ];
 
-const TECH_STACK = [
-  { name: "JavaScript", category: "Language" },
-  { name: "React", category: "Frontend" },
-  { name: "TypeScript", category: "Language" },
-  { name: "Node.js", category: "Backend" },
-  { name: "Express", category: "Backend" },
-  { name: "MongoDB, PostgreSQL", category: "Database" },
-  { name: "Redis", category: "Cache" },
-  { name: "WebSocket", category: "Real-time" },
-  { name: "OpenAI API", category: "AI" },
-  { name: "Groq API", category: "AI" },
-  { name: "Claude", category: "AI" },
-  { name: "Prompt Engineering", category: "AI" },
-  { name: "Docker", category: "DevOps" },
-  { name: "AWS", category: "Cloud" },
-  { name: "Rate Limiting", category: "Architecture" },
-  { name: "Observability", category: "DevOps" },
-];
+const TECH_STACK = {
+  core: [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "PostgreSQL",
+  ],
+  realtime: [
+    "WebSockets (connection management, sync strategies)",
+    "Redis (caching, pub/sub)",
+    "Rate limiting, queue-based processing",
+    "API design (REST + real-time patterns)",
+  ],
+  ai: [
+    "OpenAI, Claude, Groq APIs",
+    "RAG pipelines (embeddings + retrieval flows)",
+    "Prompt design and response validation",
+    "Latency + cost-aware API usage",
+  ],
+  infrastructure: [
+    "Docker",
+    "AWS (deployment, scaling basics)",
+    "Observability (logs, metrics)",
+    "CI/CD pipelines",
+  ],
+};
 
 const DIFFERENTIATORS = [
-  {
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 2v4" /><path d="m16.2 7.8 2.9-2.9" /><path d="M18 12h4" /><path d="m16.2 16.2 2.9 2.9" /><path d="M12 18v4" /><path d="m4.9 19.1 2.9-2.9" /><path d="M2 12h4" /><path d="m4.9 4.9 2.9 2.9" />
-      </svg>
-    ),
-    title: "AI-Native Architecture",
-    description: "I don't bolt AI onto existing systems. I build architectures where machine learning pipelines, LLM integrations, and intelligent automation are first-class citizens. RAG pipelines, embedding vectors, prompt optimization, hallucination control.",
-  },
+  
   {
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -119,28 +118,37 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12">
           <motion.div variants={itemVariants} className="space-y-6">
             <p className="text-[var(--foreground)] leading-relaxed">
-              I&apos;m a full-stack engineer with 3 years of experience building
-              production-grade applications. My focus: AI integration and
-              real-time systems that solve real problems.
+              I&apos;m a full-stack engineer with 4 years of experience building and
+              shipping production applications, with a focus on backend systems,
+              real-time infrastructure and AI integrations.
             </p>
             <p className="text-[var(--muted-foreground)] leading-relaxed">
-              I&apos;ve built AI-powered learning platforms that adapt to user
-              behavior and real-time collaboration systems handling thousands of
-              concurrent connections. My code isn&apos;t
-              portfolio-ready, it's production-ready.
+              I work primarily across the MERN stack, designing systems that handle
+              live data, scale under load and integrate LLM capabilities where they
+              add real value.
             </p>
+            <div className="pt-4">
+              <h3 className="text-sm font-semibold text-[var(--muted-foreground)] uppercase tracking-wider mb-3">
+                Focus Areas
+              </h3>
+              <ul className="space-y-1.5 text-sm text-[var(--muted-foreground)]">
+                <li><span className="text-primary-500">•</span> Real-time systems (WebSockets, Redis pub/sub, low-latency sync)</li>
+                <li><span className="text-primary-500">•</span> Backend architecture (caching, rate limiting, fault tolerance)</li>
+                <li><span className="text-primary-500">•</span> Practical AI integration (RAG pipelines, prompt workflows, API orchestration)</li>
+              </ul>
+            </div>
 
             <div className="pt-4">
               <h3 className="text-sm font-semibold text-[var(--muted-foreground)] uppercase tracking-wider mb-4">
-                Tech Stack
+                Core Stack
               </h3>
               <div className="flex flex-wrap gap-2">
-                {TECH_STACK.map((tech) => (
+                {TECH_STACK.core.map((tech) => (
                   <span
-                    key={tech.name}
+                    key={tech}
                     className="px-3 py-1.5 text-xs font-medium rounded-lg bg-[var(--muted)] text-[var(--foreground)] border border-[var(--border)]"
                   >
-                    {tech.name}
+                    {tech}
                   </span>
                 ))}
               </div>
@@ -148,14 +156,48 @@ export function About() {
 
             <div className="pt-4">
               <h3 className="text-sm font-semibold text-[var(--muted-foreground)] uppercase tracking-wider mb-4">
-                Certifications
+                Real-Time & Backend
               </h3>
-              <div className="space-y-2">
-                {CERTIFICATIONS.map((cert) => (
-                  <div key={cert.name} className="flex justify-between items-center text-sm">
-                    <span className="text-[var(--foreground)]">{cert.name}</span>
-                    <span className="text-[var(--muted-foreground)]">{cert.issuer} · {cert.year}</span>
-                  </div>
+              <div className="flex flex-wrap gap-2">
+                {TECH_STACK.realtime.map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-3 py-1.5 text-xs font-medium rounded-lg bg-[var(--muted)] text-[var(--foreground)] border border-[var(--border)]"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="pt-4">
+              <h3 className="text-sm font-semibold text-[var(--muted-foreground)] uppercase tracking-wider mb-4">
+                AI Integration
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {TECH_STACK.ai.map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-3 py-1.5 text-xs font-medium rounded-lg bg-[var(--muted)] text-[var(--foreground)] border border-[var(--border)]"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="pt-4">
+              <h3 className="text-sm font-semibold text-[var(--muted-foreground)] uppercase tracking-wider mb-4">
+                Infrastructure & Production
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {TECH_STACK.infrastructure.map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-3 py-1.5 text-xs font-medium rounded-lg bg-[var(--muted)] text-[var(--foreground)] border border-[var(--border)]"
+                  >
+                    {tech}
+                  </span>
                 ))}
               </div>
             </div>
@@ -172,6 +214,20 @@ export function About() {
                   >
                     {skill}
                   </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="pt-4">
+              <h3 className="text-sm font-semibold text-[var(--muted-foreground)] uppercase tracking-wider mb-4">
+                Certifications
+              </h3>
+              <div className="space-y-2">
+                {CERTIFICATIONS.map((cert) => (
+                  <div key={cert.name} className="flex justify-between items-center text-sm">
+                    <span className="text-[var(--foreground)]">{cert.name}</span>
+                    <span className="text-[var(--muted-foreground)]">{cert.year}</span>
+                  </div>
                 ))}
               </div>
             </div>

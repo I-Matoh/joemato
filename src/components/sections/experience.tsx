@@ -16,20 +16,20 @@ const EXPERIENCES: Experience[] = [
     company: "Cytonn",
     period: "2025",
     highlights: [
-      "Developed and maintained fintech platforms for a leading money market and real estate investment firm",
-      "Built AI-powered investment portal serving 10K+ users with optimized Redis caching reducing latency by 60%",
-      "Implemented real-time WebSocket systems for live market data and portfolio tracking supporting 1K+ concurrent users",
-      "Enhanced platform reliability with comprehensive error monitoring, reducing production incidents by 40%",
+      "Built and maintained fintech platforms serving thousands of users",
+      "Developed backend services with Redis caching, reducing API latency significantly",
+      "Implemented real-time features for live market data using WebSockets",
+      "Improved system reliability through structured error handling and monitoring",
     ],
   },
   {
-    role: "Remote Data Annotation Specialist",
+    role: "Data Annotation Specialist",
     company: "Contracts",
     period: "2024-2025",
     highlights: [
-      "Labeled and quality-checked 50K+ AI training datasets for computer vision models",
-      "Diagnosed and resolved production bottlenecks in data pipelines, reducing processing time by 40%",
-      "Collaborated with ML engineers to refine annotation guidelines improving model accuracy by 15%",
+      "Worked on large-scale datasets for ML systems (50K+ items)",
+      "Identified inconsistencies in data pipelines and improved processing efficiency",
+      "Collaborated with ML teams, gaining exposure to model behavior and evaluation",
     ],
   },
   {
@@ -40,7 +40,6 @@ const EXPERIENCES: Experience[] = [
       "Developed MERN stack applications from scratch for 5+ clients",
       "Integrated OpenAI API for automated content generation features",
       "Implemented RESTful APIs and real-time features using WebSocket",
-      "Achieved 95% test coverage on critical payment processing modules",
     ],
   },
 ];

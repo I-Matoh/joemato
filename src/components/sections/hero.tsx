@@ -49,23 +49,22 @@ export function Hero() {
 
         <motion.h1
           variants={itemVariants}
-          className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-[var(--foreground)] text-balance"
+          className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[var(--foreground)] text-balance"
         >
-          Full-Stack Engineer (AI & Real-Time Systems){" "}
+          Full-Stack Engineer specializing in real-time systems and AI integrations{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-accent-500">
-            Building Production AI
+            Building production-grade
           </span>{" "}
-          Systems That Scale
+          applications with strong backend architecture and low-latency systems
         </motion.h1>
 
         <motion.p
           variants={itemVariants}
-          className="mt-6 text-lg md:text-xl text-[var(--muted-foreground)] max-w-2xl mx-auto text-balance"
+          className="mt-6 text-base md:text-lg text-[var(--muted-foreground)] max-w-2xl mx-auto text-balance"
         >
-          I design and ship production-grade applications where AI integration
-          isn&apos;t a feature, it&apos;s the architecture. Three years of MERN
-          stack mastery, applied to systems that learn, adapt and handle
-          real-time complexity.
+          I&apos;m a full-stack engineer with 4 years of experience building and
+          shipping production applications, with a focus on backend systems,
+          real-time infrastructure and AI integrations.
         </motion.p>
 
         <motion.div
