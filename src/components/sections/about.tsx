@@ -118,7 +118,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12">
           <motion.div variants={itemVariants} className="space-y-6">
             <p className="text-[var(--foreground)] leading-relaxed">
-              I&apos;m a full-stack engineer with 4 years of experience building and
+              I&apos;m a full-stack engineer with 3+ years of experience building and
               shipping production applications, with a focus on backend systems,
               real-time infrastructure and AI integrations.
             </p>

@@ -62,7 +62,7 @@ export function Hero() {
           variants={itemVariants}
           className="mt-6 text-base md:text-lg text-[var(--muted-foreground)] max-w-2xl mx-auto text-balance"
         >
-          I&apos;m a full-stack engineer with 4 years of experience building and
+          I&apos;m a full-stack engineer with 3+ years of experience building and
           shipping production applications, with a focus on backend systems,
           real-time infrastructure and AI integrations.
         </motion.p>

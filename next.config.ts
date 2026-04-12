@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/joemato",
   reactStrictMode: true,
+  trailingSlash: true,
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
