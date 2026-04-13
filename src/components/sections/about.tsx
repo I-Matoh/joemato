@@ -26,6 +26,7 @@ const TECH_STACK = {
     "Node.js",
     "Express",
     "MongoDB",
+    "Git",
     "PostgreSQL",
   ],
   realtime: [

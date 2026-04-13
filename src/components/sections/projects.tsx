@@ -69,7 +69,7 @@ const PROJECTS: Project[] = [
       "Designing a conflict resolution UI that's intuitive, not technical",
       "Optimizing WebSocket connections to handle 1000+ concurrent sessions",
     ],
-    techStack: ["React", "Node.js", "WebSocket", "Redis", "MongoDB", "Docker"],
+    techStack: ["React", "Node.js", "WebSocket", "Redis", "MongoDB"],
     impact: [
       "Reliable multi-user editing with conflict handling",
       "Sub-50ms sync latency under normal load",
