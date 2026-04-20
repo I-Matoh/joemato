@@ -14,8 +14,6 @@ const SOFT_SKILLS = [
   "Systems Thinking",
   "End-to-End Ownership",
   "Bias for Action",
-  "Influence without Authority",
-  "Ambiguity Management",
 ];
 
 const TECH_STACK = {
